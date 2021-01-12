@@ -1,0 +1,65 @@
+.header.header__article {
+    height: 450px;
+}
+
+.header__article1 .header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background: url('../img/code.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.4;
+}
+.header__article2 .header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background: url('../img/network.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.4;
+}
+.header__article3 .header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background: url('../img/laptop.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.article__view-container {
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.article__view-title {
+    border-bottom: 2px solid #f39c12;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+.article__view-subtitle {
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 0;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.article__view-content {
+    padding-top: 10px;
+    text-align: justify;
+    font-weight: 300;
+    padding-bottom: 30px;
+    font-size: 17px;
+    line-height: 27px;
+}
